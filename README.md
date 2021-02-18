@@ -51,5 +51,14 @@ Check first item on latest to-do list. The comment is optional. The `-c` command
 
 ![](https://raw.githubusercontent.com/Xenexes/Todo-Cli/master/images/uncheck_item.png)
 
+### Run commands without checkout
 
+`jbang https://raw.githubusercontent.com/Xenexes/Todo-Cli/master/Todo.java -n`
 
+`jbang https://raw.githubusercontent.com/Xenexes/Todo-Cli/master/Todo.java -t "My new to-do 1"`
+
+`jbang https://raw.githubusercontent.com/Xenexes/Todo-Cli/master/Todo.java -l`
+
+`jbang https://raw.githubusercontent.com/Xenexes/Todo-Cli/master/Todo.java -c 1 "My comment on check."`
+
+### Run commands with alias
