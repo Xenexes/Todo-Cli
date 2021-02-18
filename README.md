@@ -23,3 +23,33 @@ You can also use` jbang edit --live Todo.java` and jbang will launch your editor
 
 ### Run the command
 
+Create new list.
+
+`jbang Todo.java -n`
+
+![](https://raw.githubusercontent.com/Xenexes/Todo-Cli/master/images/new_list.png)
+
+Add new item.
+
+`jbang Todo.java -t "My new to-do 1"`
+
+`jbang Todo.java -t "My new to-do 2"`
+
+![](https://raw.githubusercontent.com/Xenexes/Todo-Cli/master/images/new_list_item.png)
+
+List items of latest to-do list.
+
+`jbang Todo.java -l`
+
+![](https://raw.githubusercontent.com/Xenexes/Todo-Cli/master/images/list_items.png)
+
+Check first item on latest to-do list. The comment is optional. The `-c` command toggles the check state.
+
+`jbang Todo.java -c 1 "My comment on check."`
+
+![](https://raw.githubusercontent.com/Xenexes/Todo-Cli/master/images/check_item.png)
+
+![](https://raw.githubusercontent.com/Xenexes/Todo-Cli/master/images/uncheck_item.png)
+
+
+
